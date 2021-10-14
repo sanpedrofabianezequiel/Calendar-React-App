@@ -1,3 +1,10 @@
+# We need install three componente about Redux
+ npm install react-redux redux redux-thunk
+ Redux + React Redux + Redux-thunk
+ # Folder with Redux
+ reducer + actions + store +types
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

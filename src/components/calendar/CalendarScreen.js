@@ -8,6 +8,7 @@ import { messages } from '../../helpers/calendar-message-es';
 
 import 'moment/locale/es';
 import { CalendarEvent } from './CalendarEvent';
+import { CalendarModal } from './CalendarModal';
 moment.locale('es');
 const localizer = momentLocalizer(moment) // or globalizeLocalizer
 
@@ -69,6 +70,8 @@ export const CalendarScreen = () => {
             onView={onViewChange}
             view={lastView}
             />
+
+            <CalendarModal/>
         </div>
     )
 }

@@ -4,6 +4,8 @@
  # Folder with Redux
  reducer + actions + store +types
 
+git push heroku master
+
 
 # Getting Started with Create React App
 

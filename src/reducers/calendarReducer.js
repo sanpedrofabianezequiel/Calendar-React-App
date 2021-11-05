@@ -52,6 +52,15 @@ export const calendarReducer = (state = initialState, action)=>{
                 ),
                 activeEvent:null
             }
+        case types.eventLoaded:
+            return {
+                ...state,
+                events:[...action.payload]
+            }
+        case types.eventLogout:
+            return {
+                ...initialState
+            }
         default:
             return state;
     }
